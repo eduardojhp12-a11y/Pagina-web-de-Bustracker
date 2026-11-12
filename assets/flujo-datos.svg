@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 420" role="img" aria-labelledby="title desc">
+  <title id="title">Flujo conceptual de información de BusTracker</title>
+  <desc id="desc">Cuatro etapas conectan el GPS de una unidad con análisis, almacenamiento y una pantalla de consulta.</desc>
+  <rect width="1000" height="420" rx="28" fill="#f5f8fc"/>
+  <g fill="none" stroke="#b8cde0" stroke-width="8" stroke-linecap="round">
+    <path d="M240 210h104m205 0h104m205 0h104"/>
+  </g>
+  <g fill="#1268c4">
+    <path d="m329 194 19 16-19 16zM534 194l19 16-19 16zM739 194l19 16-19 16z"/>
+  </g>
+  <g>
+    <rect x="42" y="92" width="198" height="236" rx="24" fill="#e4f1ff" stroke="#c8dff5" stroke-width="2"/>
+    <rect x="287" y="92" width="198" height="236" rx="24" fill="#fff3d4" stroke="#f0dfa9" stroke-width="2"/>
+    <rect x="532" y="92" width="198" height="236" rx="24" fill="#e4f5ef" stroke="#c4e7da" stroke-width="2"/>
+    <rect x="777" y="92" width="181" height="236" rx="24" fill="#e4f1ff" stroke="#c8dff5" stroke-width="2"/>
+  </g>
+  <g fill="none" stroke="#084b92" stroke-linecap="round" stroke-linejoin="round" stroke-width="8">
+    <path d="M141 141v52m-23-23 23-29 23 29M119 193h44"/>
+    <circle cx="386" cy="169" r="34"/><path d="m362 169 16 16 33-37"/>
+    <ellipse cx="631" cy="148" rx="38" ry="14"/><path d="M593 148v45c0 8 17 14 38 14s38-6 38-14v-45m-76 22c0 8 17 14 38 14s38-6 38-14"/>
+    <rect x="834" y="140" width="66" height="54" rx="8"/><path d="M850 208h34m-17-14v14"/>
+  </g>
+  <g font-family="Arial, sans-serif" text-anchor="middle" fill="#132d4a">
+    <g font-size="19" font-weight="700">
+      <text x="141" y="253">GPS</text><text x="386" y="253">Análisis</text>
+      <text x="631" y="253">Datos</text><text x="867" y="253">Consulta</text>
+    </g>
+    <g font-size="14" fill="#52677e">
+      <text x="141" y="280">Ubicación</text><text x="386" y="280">Predicciones</text>
+      <text x="631" y="280">Rutas e historial</text><text x="867" y="280">Mapa y avisos</text>
+    </g>
+  </g>
+</svg>

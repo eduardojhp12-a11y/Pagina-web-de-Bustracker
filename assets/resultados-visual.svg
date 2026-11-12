@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Revisión conceptual de resultados del proyecto</title>
+  <desc id="desc">Una hoja de evaluación con marcas de verificación, un gráfico sin valores y una lupa.</desc>
+  <rect width="900" height="520" rx="28" fill="#eaf2fa"/>
+  <circle cx="720" cy="108" r="65" fill="#fff3d4"/>
+  <rect x="208" y="52" width="430" height="420" rx="28" fill="#fff" stroke="#dce6f0" stroke-width="5"/>
+  <path d="M272 115h235" stroke="#132d4a" stroke-linecap="round" stroke-width="17"/>
+  <path d="M272 152h169" stroke="#b8c8d8" stroke-linecap="round" stroke-width="11"/>
+  <g fill="#e4f5ef" stroke="#14876b" stroke-width="5">
+    <rect x="270" y="204" width="34" height="34" rx="10"/><rect x="270" y="266" width="34" height="34" rx="10"/><rect x="270" y="328" width="34" height="34" rx="10"/>
+  </g>
+  <g fill="none" stroke="#14876b" stroke-linecap="round" stroke-linejoin="round" stroke-width="5">
+    <path d="m279 221 7 7 12-15m-19 70 7 7 12-15m-19 70 7 7 12-15"/>
+  </g>
+  <g stroke="#c7d4e0" stroke-linecap="round" stroke-width="10">
+    <path d="M325 221h191m-191 62h157m-157 62h177"/>
+  </g>
+  <rect x="520" y="270" width="220" height="150" rx="22" fill="#f5f8fc" stroke="#dce6f0" stroke-width="5"/>
+  <path d="M552 384v-40m47 40v-67m47 67v-52m47 52v-91" stroke="#1268c4" stroke-linecap="round" stroke-width="20"/>
+  <circle cx="695" cy="150" r="43" fill="none" stroke="#1268c4" stroke-width="12"/>
+  <path d="m726 182 38 38" stroke="#1268c4" stroke-linecap="round" stroke-width="15"/>
+  <path d="M550 92h53" stroke="#f5bc3d" stroke-linecap="round" stroke-width="10"/>
+</svg>

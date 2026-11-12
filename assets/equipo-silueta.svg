@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 460" role="img" aria-labelledby="title desc">
+  <title id="title">Siluetas provisionales para fotografías del equipo</title>
+  <desc id="desc">Tres retratos abstractos que sirven como espacios temporales para las fotos de los integrantes.</desc>
+  <g opacity=".36" fill="#fff">
+    <circle cx="88" cy="97" r="32"/><circle cx="414" cy="82" r="23"/>
+    <path d="M38 365c0-63 25-92 59-92s60 29 60 92v18H38zM369 326c0-46 19-68 45-68s46 22 46 68v16h-91z"/>
+  </g>
+  <g fill="#084b92">
+    <circle cx="250" cy="148" r="67"/>
+    <path d="M118 406c2-111 48-168 132-168s130 57 132 168v19H118z"/>
+  </g>
+  <path d="M194 152c5 24 27 43 56 43s51-19 56-43" fill="none" stroke="#e4f1ff" stroke-linecap="round" stroke-width="9" opacity=".8"/>
+  <path d="M165 286c27 27 55 40 85 40s58-13 85-40" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="10" opacity=".75"/>
+  <circle cx="250" cy="148" r="118" fill="none" stroke="#fff" stroke-width="3" opacity=".48"/>
+</svg>
