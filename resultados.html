@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f8fc">
+  <link rel="icon" href="assets/bus-tracker-logo.jpeg" type="image/jpeg">
+  <meta name="description" content="Resultados, metodología, limitaciones y próximos pasos documentados para el proyecto BusTracker Maracaibo.">
+  <meta property="og:title" content="Resultados y próximos pasos | BusTracker Maracaibo">
+  <meta property="og:description" content="Qué validó la investigación y qué desafíos quedan para llevar la propuesta a más rutas y usuarios.">
+  <title>Resultados y próximos pasos | BusTracker Maracaibo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="site.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <svg aria-hidden="true" width="0" height="0" style="position:absolute;overflow:hidden">
+    <symbol id="check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="alert" viewBox="0 0 24 24"><path d="M12 3 2.8 19h18.4L12 3Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M12 9v4m0 3h.01" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="moon" viewBox="0 0 24 24"><path d="M20.5 15.5A8.5 8.5 0 0 1 8.5 3.5 8.5 8.5 0 1 0 20.5 15.5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+    <symbol id="sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+  </svg>
+  <header class="site-header">
+    <nav class="container nav-wrap" aria-label="Navegación principal">
+      <a class="brand-logo" href="index.html" aria-label="BusTracker Maracaibo, inicio"><img src="assets/bus-tracker-logo.jpeg" alt="BusTracker Maracaibo"></a>
+      <div class="nav-links" id="site-navigation">
+        <a href="index.html">Inicio</a><a href="problema.html">El problema</a><a href="solucion.html">Solución</a><a href="funcionalidades.html">Funcionalidades</a><a href="como-funciona.html">Cómo funciona</a><a href="equipo.html">Equipo</a><a href="contacto.html">Contacto</a>
+        <details class="nav-more" open><summary>Más</summary><div class="nav-more-menu"><a href="inversion.html">Inversión</a><a href="para-quien.html">¿Para quién es?</a><a href="resultados.html" aria-current="page">Resultados</a></div></details>
+      </div>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Activar modo oscuro"><svg aria-hidden="true"><use href="#moon"></use></svg></button>
+        <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="site-navigation"><svg aria-hidden="true"><use href="#menu"></use></svg></button>
+      </div>
+    </nav>
+  </header>
+  <main id="contenido">
+    <section class="page-hero section-soft">
+      <div class="container">
+        <p class="eyebrow">Resultados y próximos pasos</p>
+        <h1>Qué se probó, qué se aprendió y qué falta por hacer</h1>
+        <p class="lead">BusTracker se desarrolló como una investigación aplicada, con enfoque experimental y nivel descriptivo-explicativo. Aquí presentamos sus hallazgos con claridad, sin atribuir al proyecto cifras de uso o resultados que no aparecen en la investigación.</p>
+      </div>
+    </section>
+    <section class="content-section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Cómo se desarrolló</p>
+          <h2>Cuatro etapas de investigación</h2>
+          <p class="lead">El trabajo organizó el análisis del problema y el desarrollo de la propuesta en etapas que conectan las necesidades de los usuarios con la validación del sistema.</p>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item"><strong>Análisis de requerimientos</strong><p>Estudio de las necesidades de movilidad y de la información que necesitan pasajeros y gestores.</p></article>
+          <article class="timeline-item"><strong>Diseño teórico</strong><p>Definición de la arquitectura, las capas y las técnicas inteligentes propuestas.</p></article>
+          <article class="timeline-item"><strong>Simulación computacional</strong><p>Implementación y prueba de componentes para procesar datos y generar estimaciones.</p></article>
+          <article class="timeline-item"><strong>Validación experimental</strong><p>Revisión de la solución con usuarios y contraste de predicciones y tiempos observados.</p></article>
+        </div>
+      </div>
+    </section>
+    <section class="section section-soft">
+      <div class="container split split-top">
+        <div>
+          <div class="section-heading">
+            <p class="eyebrow">Hallazgos documentados</p>
+            <h2>Resultados que reporta la investigación</h2>
+            <p class="lead">El proyecto informa resultados funcionales y de viabilidad. No presenta porcentajes de precisión, cantidades de usuarios ni tiempos de respuesta.</p>
+          </div>
+          <ul class="result-list">
+            <li><svg aria-hidden="true"><use href="#check"></use></svg><span>Arquitectura funcional validada con usuarios reales en Maracaibo.</span></li>
+            <li><svg aria-hidden="true"><use href="#check"></use></svg><span>Operación estable gestionando múltiples rutas y paradas simultáneamente.</span></li>
+            <li><svg aria-hidden="true"><use href="#check"></use></svg><span>Cumplimiento de los cinco objetivos específicos de la investigación.</span></li>
+            <li><svg aria-hidden="true"><use href="#check"></use></svg><span>Viabilidad y posibilidad de replicar la propuesta en entornos con poca infraestructura tecnológica.</span></li>
+          </ul>
+        </div>
+        <article class="contact-card">
+          <h3>Cómo se revisó</h3>
+          <p>La metodología combinó observación directa, revisión documental y prueba piloto con usuarios. Se utilizaron fichas, cuestionarios de usabilidad y registros GPS.</p>
+          <p>La validación consideró la triangulación de información y la comparación de predicciones con tiempos reales, con pruebas repetidas en distintos horarios y rutas.</p>
+        </article>
+      </div>
+    </section>
+    <section class="content-section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Transparencia</p>
+          <h2>Limitaciones y próximos pasos</h2>
+          <p class="lead">La propuesta es un punto de partida. Para ampliar su alcance, la documentación reconoce dependencias técnicas y plantea trabajo futuro.</p>
+        </div>
+        <div class="grid-2">
+          <article class="card"><span class="icon icon-warm"><svg aria-hidden="true"><use href="#alert"></use></svg></span><h3>Lo que puede limitarla</h3><ul class="plain-list"><li>Depende de conexión a internet para transmitir y consultar información.</li><li>La exactitud de la ubicación depende de la precisión del GPS.</li><li>El servicio necesita que las rutas y los datos estén actualizados.</li></ul></article>
+          <article class="card"><span class="icon icon-green"><svg aria-hidden="true"><use href="#check"></use></svg></span><h3>Lo que sigue</h3><ul class="plain-list"><li>Desarrollar modo offline o caché para información disponible sin conexión.</li><li>Ampliar la cobertura de rutas y paradas.</li><li>Explorar alianzas con la Alcaldía y las cooperativas.</li><li>Evaluar la posibilidad de llevar la propuesta a otras ciudades.</li></ul></article>
+        </div>
+        <div class="note"><svg aria-hidden="true"><use href="#alert"></use></svg><span><strong>Sin cifras inventadas:</strong> los documentos consultados no incluyen un porcentaje de precisión, un número de usuarios, una cantidad de rutas desplegadas ni testimonios atribuibles. Por eso esta página no los presenta como resultados.</span></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container"><div class="footer-grid"><div class="footer-brand"><img src="assets/bus-tracker-logo.jpeg" alt=""><p><strong>Maracaibo IA Solutions</strong><br>Universidad Dr. José Gregorio Hernández<br>Maracaibo, Zulia, Venezuela</p></div><nav class="footer-nav" aria-label="Navegación del pie"><a href="problema.html">El problema</a><a href="como-funciona.html">Cómo funciona</a><a href="inversion.html">Inversión</a><a href="equipo.html">Equipo</a><a href="contacto.html">Contacto</a></nav></div><div class="footer-bottom"><span>Proyecto de Ingeniería en Sistemas</span><span>Nunca más pierdas tu bus. La IA te avisa.</span></div></div></footer>
+</body>
+</html>

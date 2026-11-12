@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f8fc">
+  <link rel="icon" href="assets/bus-tracker-logo.jpeg" type="image/jpeg">
+  <meta name="description" content="BusTracker Maracaibo organiza información del transporte público para ayudar a planificar los viajes con más claridad.">
+  <meta property="og:title" content="La solución | BusTracker Maracaibo">
+  <meta property="og:description" content="Ubicación, predicciones, rutas y avisos en una sola aplicación pensada para la movilidad de Maracaibo.">
+  <title>La solución | BusTracker Maracaibo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="site.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <svg aria-hidden="true" width="0" height="0" style="position:absolute;overflow:hidden">
+    <symbol id="map" viewBox="0 0 24 24"><path d="m3 6 6-3 6 3 6-3v15l-6 3-6-3-6 3V6Zm6-3v15m6-12v15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+    <symbol id="clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v5l3.5 2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="people" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3.5 20v-1.5A4.5 4.5 0 0 1 8 14h2a4.5 4.5 0 0 1 4.5 4.5V20M16 5.3a3 3 0 0 1 0 5.8m1 3h.7a3.8 3.8 0 0 1 3.8 3.8V20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="bell" viewBox="0 0 24 24"><path d="M18 9a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9m-8 12h4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="moon" viewBox="0 0 24 24"><path d="M20.5 15.5A8.5 8.5 0 0 1 8.5 3.5 8.5 8.5 0 1 0 20.5 15.5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+    <symbol id="sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+  </svg>
+  <header class="site-header">
+    <nav class="container nav-wrap" aria-label="Navegación principal">
+      <a class="brand-logo" href="index.html" aria-label="BusTracker Maracaibo, inicio"><img src="assets/bus-tracker-logo.jpeg" alt="BusTracker Maracaibo"></a>
+      <div class="nav-links" id="site-navigation">
+        <a href="index.html">Inicio</a><a href="problema.html">El problema</a><a href="solucion.html" aria-current="page">Solución</a><a href="funcionalidades.html">Funcionalidades</a><a href="como-funciona.html">Cómo funciona</a><a href="equipo.html">Equipo</a><a href="contacto.html">Contacto</a>
+        <details class="nav-more"><summary>Más</summary><div class="nav-more-menu"><a href="inversion.html">Inversión</a><a href="para-quien.html">¿Para quién es?</a><a href="resultados.html">Resultados</a></div></details>
+      </div>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Activar modo oscuro"><svg aria-hidden="true"><use href="#moon"></use></svg></button>
+        <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="site-navigation"><svg aria-hidden="true"><use href="#menu"></use></svg></button>
+      </div>
+    </nav>
+  </header>
+  <main id="contenido">
+    <section class="page-hero section-soft">
+      <div class="container">
+        <p class="eyebrow">La solución</p>
+        <h1>Más información para que cada viaje empiece mejor.</h1>
+        <p class="lead">BusTracker Maracaibo es una propuesta de aplicación móvil que reúne en un solo lugar información útil para moverse en transporte público: dónde va la unidad, cuándo podría llegar, si hay puestos y cómo se comportan las rutas.</p>
+      </div>
+    </section>
+    <section class="content-section">
+      <div class="container split">
+        <div>
+          <div class="section-heading">
+            <p class="eyebrow">Una herramienta para la ciudad</p>
+            <h2>De la incertidumbre a una decisión más informada</h2>
+            <p class="lead">La propuesta conecta datos de ubicación con predicciones y los presenta en una interfaz pensada para que cualquier persona pueda consultarlos.</p>
+          </div>
+          <ul class="check-list">
+            <li><svg aria-hidden="true"><use href="#check"></use></svg><span>Consulta en el mapa la ubicación compartida por el GPS del celular del chofer.</span></li>
+            <li><svg aria-hidden="true"><use href="#check"></use></svg><span>Revisa una predicción de llegada y de puestos disponibles.</span></li>
+            <li><svg aria-hidden="true"><use href="#check"></use></svg><span>Encuentra rutas, paradas y horarios, incluido el cierre de cada ruta.</span></li>
+            <li><svg aria-hidden="true"><use href="#check"></use></svg><span>Recibe avisos y comparte reportes ciudadanos sobre el servicio.</span></li>
+          </ul>
+        </div>
+        <figure class="image-promo">
+          <img src="assets/bus-tracker-poster.jpg" alt="Afiche conceptual de BusTracker Maracaibo con una ilustración de un teléfono y una unidad de transporte">
+          <figcaption>Imagen conceptual del proyecto. Las cifras, predicciones y el texto de descarga que aparecen dentro del afiche son ilustrativos; no representan mediciones actuales ni una aplicación disponible para descargar.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="content-section section-soft">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Del dato a una orientación</p>
+          <h2>¿Qué pasa desde que el bus se mueve?</h2>
+          <p class="lead">La propuesta conecta la información que se obtiene del recorrido con herramientas que la interpretan y la convierten en una consulta sencilla.</p>
+        </div>
+        <div class="card-grid">
+          <article class="card step-card"><span class="step-number">01 · COMPARTIR</span><h3>La unidad informa su ubicación</h3><p>El GPS del celular del chofer aporta la posición del vehículo durante el recorrido.</p></article>
+          <article class="card step-card"><span class="step-number">02 · PROCESAR</span><h3>El sistema interpreta los datos</h3><p>Los modelos comparan la posición con la ruta y con patrones anteriores para elaborar estimaciones.</p></article>
+          <article class="card step-card"><span class="step-number">03 · CONSULTAR</span><h3>La persona ve la información</h3><p>El mapa, las llegadas estimadas, la ocupación prevista y los horarios se presentan para apoyar la decisión de viaje.</p></article>
+        </div>
+        <p class="muted small">Una predicción es una referencia, no una garantía de llegada exacta: depende de la conexión, de la señal GPS y de la información disponible para cada ruta.</p>
+      </div>
+    </section>
+    <section class="section section-soft">
+      <div class="container">
+        <div class="section-heading center">
+          <p class="eyebrow">Qué cambia para quien viaja</p>
+          <h2>Información que ayuda a planificar</h2>
+          <p class="lead">No se trata de prometer que el transporte nunca tendrá retrasos. Se trata de ofrecer señales para que la persona pueda decidir con más contexto.</p>
+        </div>
+        <div class="card-grid">
+          <article class="card"><span class="icon"><svg aria-hidden="true"><use href="#map"></use></svg></span><h3>Ubicación a la vista</h3><p>Un mapa ayuda a entender dónde se encuentra la unidad reportada y cómo se relaciona con las paradas del recorrido.</p></article>
+          <article class="card"><span class="icon icon-warm"><svg aria-hidden="true"><use href="#clock"></use></svg></span><h3>Una llegada estimada</h3><p>La predicción de llegada busca convertir la espera sin referencia en un dato orientativo para organizar el tiempo.</p></article>
+          <article class="card"><span class="icon icon-green"><svg aria-hidden="true"><use href="#people"></use></svg></span><h3>Una idea de la ocupación</h3><p>La estimación de puestos disponibles puede ayudar a valorar si conviene esperar otra unidad o revisar alternativas.</p></article>
+        </div>
+        <div class="button-row"><a class="button button-primary" href="funcionalidades.html">Explora las funcionalidades</a><a class="button button-secondary" href="como-funciona.html">Entiende cómo funciona</a></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container"><div class="footer-grid"><div class="footer-brand"><img src="assets/bus-tracker-logo.jpeg" alt=""><p><strong>Maracaibo IA Solutions</strong><br>Universidad Dr. José Gregorio Hernández<br>Maracaibo, Zulia, Venezuela</p></div><nav class="footer-nav" aria-label="Navegación del pie"><a href="problema.html">El problema</a><a href="funcionalidades.html">Funcionalidades</a><a href="inversion.html">Inversión</a><a href="equipo.html">Equipo</a><a href="contacto.html">Contacto</a></nav></div><div class="footer-bottom"><span>Proyecto de Ingeniería en Sistemas</span><span>Nunca más pierdas tu bus. La IA te avisa.</span></div></div></footer>
+</body>
+</html>

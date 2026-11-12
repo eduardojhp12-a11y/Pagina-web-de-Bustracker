@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f8fc">
+  <link rel="icon" href="assets/bus-tracker-logo.jpeg" type="image/jpeg">
+  <meta name="description" content="Conoce los problemas cotidianos del transporte público en Maracaibo que BusTracker busca ayudar a resolver.">
+  <meta property="og:title" content="El problema | BusTracker Maracaibo">
+  <meta property="og:description" content="Esperas sin información, rutas que cambian y falta de avisos: el problema de movilidad que aborda BusTracker.">
+  <title>El problema | BusTracker Maracaibo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="site.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <svg aria-hidden="true" width="0" height="0" style="position:absolute;overflow:hidden">
+    <symbol id="bus" viewBox="0 0 24 24"><path d="M5 16V5.8C5 4.25 6.34 3 8 3h8c1.66 0 3 1.25 3 2.8V16M5 11h14M5 16h14M7 16v3m10-3v3M5 19H4m16 0h-1M7 7h10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v5l3.5 2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="people" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3.5 20v-1.5A4.5 4.5 0 0 1 8 14h2a4.5 4.5 0 0 1 4.5 4.5V20M16 5.3a3 3 0 0 1 0 5.8m1 3h.7a3.8 3.8 0 0 1 3.8 3.8V20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="alert" viewBox="0 0 24 24"><path d="M12 3 2.8 19h18.4L12 3Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M12 9v4m0 3h.01" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="moon" viewBox="0 0 24 24"><path d="M20.5 15.5A8.5 8.5 0 0 1 8.5 3.5 8.5 8.5 0 1 0 20.5 15.5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+    <symbol id="sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+  </svg>
+  <header class="site-header">
+    <nav class="container nav-wrap" aria-label="Navegación principal">
+      <a class="brand-logo" href="index.html" aria-label="BusTracker Maracaibo, inicio"><img src="assets/bus-tracker-logo.jpeg" alt="BusTracker Maracaibo"></a>
+      <div class="nav-links" id="site-navigation">
+        <a href="index.html">Inicio</a><a href="problema.html" aria-current="page">El problema</a><a href="solucion.html">Solución</a><a href="funcionalidades.html">Funcionalidades</a><a href="como-funciona.html">Cómo funciona</a><a href="equipo.html">Equipo</a><a href="contacto.html">Contacto</a>
+        <details class="nav-more"><summary>Más</summary><div class="nav-more-menu"><a href="inversion.html">Inversión</a><a href="para-quien.html">¿Para quién es?</a><a href="resultados.html">Resultados</a></div></details>
+      </div>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Activar modo oscuro"><svg aria-hidden="true"><use href="#moon"></use></svg></button>
+        <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="site-navigation"><svg aria-hidden="true"><use href="#menu"></use></svg></button>
+      </div>
+    </nav>
+  </header>
+  <main id="contenido">
+    <section class="page-hero section-soft">
+      <div class="container">
+        <p class="eyebrow">El problema</p>
+        <h1>El problema no es solo esperar. Es no saber.</h1>
+        <p class="lead">En Maracaibo, muchas personas dependen a diario de buses, carros por puesto y mototaxis. Sin información clara, cada traslado empieza con dudas sobre el servicio, el horario y la llegada.</p>
+      </div>
+    </section>
+    <section class="content-section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Preguntas de todos los días</p>
+          <h2>Lo que una persona no puede confirmar en la parada</h2>
+          <p class="lead">La falta de datos convierte una actividad cotidiana en una espera impredecible.</p>
+        </div>
+        <div class="grid-2">
+          <article class="card problem-card"><span class="icon icon-warm"><svg aria-hidden="true"><use href="#clock"></use></svg></span><h3>¿Cuándo viene?</h3><p>La espera puede ser de cinco minutos o de una hora. Sin una estimación, cuesta decidir cuándo salir o cuánto tiempo reservar.</p></article>
+          <article class="card problem-card"><span class="icon"><svg aria-hidden="true"><use href="#people"></use></svg></span><h3>¿Vendrá lleno?</h3><p>Una unidad con todos sus puestos ocupados puede pasar de largo. Si no se conoce su ocupación, la espera puede repetirse.</p></article>
+          <article class="card problem-card"><span class="icon icon-green"><svg aria-hidden="true"><use href="#bus"></use></svg></span><h3>¿Hasta qué hora trabaja?</h3><p>Quien no conoce el horario de cierre puede llegar a una parada cuando el servicio ya terminó.</p></article>
+          <article class="card problem-card"><span class="icon"><svg aria-hidden="true"><use href="#alert"></use></svg></span><h3>¿Cambió la ruta?</h3><p>Sin canales oficiales para comunicar desvíos, paradas temporales o suspensiones, los usuarios pueden quedarse sin orientación.</p></article>
+        </div>
+      </div>
+    </section>
+    <section class="section section-soft">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Efectos en la ciudad</p>
+          <h2>La incertidumbre también cuesta</h2>
+          <p class="lead">El artículo del proyecto describe efectos que van más allá de la demora: impactan el bolsillo, el bienestar y la movilidad de Maracaibo.</p>
+        </div>
+        <div class="impact-grid">
+          <article class="impact-item"><strong>Tiempo perdido</strong><p>Las esperas sin una hora estimada interrumpen la jornada de trabajo, estudio y diligencias.</p></article>
+          <article class="impact-item"><strong>Más gasto</strong><p>Cuando no se puede contar con la ruta, aumenta la necesidad de buscar alternativas más costosas, como un taxi.</p></article>
+          <article class="impact-item"><strong>Estrés y frustración</strong><p>No saber si llegará una unidad ni si tendrá espacio genera preocupación durante el trayecto.</p></article>
+          <article class="impact-item"><strong>Seguridad en la parada</strong><p>Esperas prolongadas en lugares desprotegidos pueden dejar a las personas expuestas por más tiempo.</p></article>
+          <article class="impact-item"><strong>Productividad</strong><p>Los retrasos afectan la organización personal y la puntualidad de las actividades diarias.</p></article>
+          <article class="impact-item"><strong>Contaminación</strong><p>La circulación innecesaria de vehículos añade impacto ambiental al problema de movilidad.</p></article>
+        </div>
+        <div class="split impact-detail">
+          <div>
+            <p class="eyebrow">El costo de no saber</p>
+            <h2>Un viaje con demasiadas incógnitas</h2>
+            <p>La incertidumbre afecta a quienes se trasladan al trabajo, a la universidad, a centros de salud y a otras actividades cotidianas. Si no se conoce el horario o si la ruta sigue activa, una persona puede caminar más para buscar transporte o esperar sin saber si llegará una unidad.</p>
+          </div>
+          <article class="contact-card">
+            <h3>El vacío de comunicación</h3>
+            <p>Cuando una ruta cambia, una parada deja de usarse o el servicio se suspende, la información puede no llegar al pasajero antes de salir. La propuesta busca que los avisos y los reportes ciudadanos tengan un lugar organizado.</p>
+          </article>
+        </div>
+        <div class="note"><svg aria-hidden="true"><use href="#alert"></use></svg><span><strong>La causa de fondo:</strong> no hay una herramienta accesible para consultar ubicación y horarios, y faltan canales organizados de comunicación entre el servicio y la ciudadanía.</span></div>
+        <div class="button-row"><a class="button button-primary" href="solucion.html">Conoce la solución</a><a class="button button-secondary" href="resultados.html">Ver la investigación</a></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container"><div class="footer-grid"><div class="footer-brand"><img src="assets/bus-tracker-logo.jpeg" alt=""><p><strong>Maracaibo IA Solutions</strong><br>Universidad Dr. José Gregorio Hernández<br>Maracaibo, Zulia, Venezuela</p></div><nav class="footer-nav" aria-label="Navegación del pie"><a href="solucion.html">Solución</a><a href="funcionalidades.html">Funcionalidades</a><a href="resultados.html">Resultados</a><a href="equipo.html">Equipo</a><a href="contacto.html">Contacto</a></nav></div><div class="footer-bottom"><span>Proyecto de Ingeniería en Sistemas</span><span>Nunca más pierdas tu bus. La IA te avisa.</span></div></div></footer>
+</body>
+</html>

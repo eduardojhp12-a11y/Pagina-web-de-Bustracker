@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f8fc">
+  <link rel="icon" href="assets/bus-tracker-logo.jpeg" type="image/jpeg">
+  <meta name="description" content="Conoce las funciones propuestas de BusTracker: mapa, predicciones, rutas, avisos, reportes y panel de gestión.">
+  <meta property="og:title" content="Funcionalidades | BusTracker Maracaibo">
+  <meta property="og:description" content="Funciones para consultar el transporte público y apoyar su gestión en Maracaibo.">
+  <title>Funcionalidades | BusTracker Maracaibo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="site.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <svg aria-hidden="true" width="0" height="0" style="position:absolute;overflow:hidden">
+    <symbol id="map" viewBox="0 0 24 24"><path d="m3 6 6-3 6 3 6-3v15l-6 3-6-3-6 3V6Zm6-3v15m6-12v15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+    <symbol id="clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v5l3.5 2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="people" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3.5 20v-1.5A4.5 4.5 0 0 1 8 14h2a4.5 4.5 0 0 1 4.5 4.5V20M16 5.3a3 3 0 0 1 0 5.8m1 3h.7a3.8 3.8 0 0 1 3.8 3.8V20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="bell" viewBox="0 0 24 24"><path d="M18 9a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9m-8 12h4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="routes" viewBox="0 0 24 24"><circle cx="6" cy="18" r="2" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="18" cy="6" r="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M8 18h3a3 3 0 0 0 3-3V9a3 3 0 0 1 3-3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="report" viewBox="0 0 24 24"><path d="M5 3h14v18l-7-4-7 4V3Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M9 8h6m-6 4h6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="dashboard" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M8 15v-3m4 3V8m4 7v-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="bus" viewBox="0 0 24 24"><path d="M5 16V5.8C5 4.25 6.34 3 8 3h8c1.66 0 3 1.25 3 2.8V16M5 11h14M5 16h14M7 16v3m10-3v3M5 19H4m16 0h-1M7 7h10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="moon" viewBox="0 0 24 24"><path d="M20.5 15.5A8.5 8.5 0 0 1 8.5 3.5 8.5 8.5 0 1 0 20.5 15.5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+    <symbol id="sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+  </svg>
+  <header class="site-header">
+    <nav class="container nav-wrap" aria-label="Navegación principal">
+      <a class="brand-logo" href="index.html" aria-label="BusTracker Maracaibo, inicio"><img src="assets/bus-tracker-logo.jpeg" alt="BusTracker Maracaibo"></a>
+      <div class="nav-links" id="site-navigation">
+        <a href="index.html">Inicio</a><a href="problema.html">El problema</a><a href="solucion.html">Solución</a><a href="funcionalidades.html" aria-current="page">Funcionalidades</a><a href="como-funciona.html">Cómo funciona</a><a href="equipo.html">Equipo</a><a href="contacto.html">Contacto</a>
+        <details class="nav-more"><summary>Más</summary><div class="nav-more-menu"><a href="inversion.html">Inversión</a><a href="para-quien.html">¿Para quién es?</a><a href="resultados.html">Resultados</a></div></details>
+      </div>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Activar modo oscuro"><svg aria-hidden="true"><use href="#moon"></use></svg></button>
+        <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="site-navigation"><svg aria-hidden="true"><use href="#menu"></use></svg></button>
+      </div>
+    </nav>
+  </header>
+  <main id="contenido">
+    <section class="page-hero section-soft">
+      <div class="container">
+        <p class="eyebrow">Funcionalidades</p>
+        <h1>Lo que la aplicación propone poner al alcance de todos</h1>
+        <p class="lead">BusTracker reúne herramientas para pasajeros y para quienes gestionan el transporte. Cada función responde a una duda concreta del viaje: ubicación, llegada, puestos disponibles, horarios y avisos. Son parte del alcance del proyecto; este sitio no ofrece una app conectada a buses en vivo.</p>
+      </div>
+    </section>
+    <section class="content-section">
+      <div class="container">
+        <div class="grid-2">
+          <article class="card feature-card"><span class="icon"><svg aria-hidden="true"><use href="#map"></use></svg></span><h3>Mapa con ubicación del bus</h3><p>Consulta la posición transmitida por el GPS del celular del chofer para ubicar la unidad respecto a su ruta y sus paradas.</p><details class="feature-more"><summary>¿Qué aporta?</summary><p>Ayuda a reemplazar la pregunta “¿por dónde viene?” por una referencia visual. La precisión depende de la señal GPS disponible.</p></details></article>
+          <article class="card feature-card"><span class="icon icon-warm"><svg aria-hidden="true"><use href="#clock"></use></svg></span><h3>Predicción de llegada</h3><p>Una estimación orientativa de cuándo podría pasar el próximo bus permite planificar mejor el tiempo de espera.</p><details class="feature-more"><summary>¿De dónde sale?</summary><p>El proyecto propone usar patrones de datos históricos junto con la información recibida para calcular el tiempo estimado.</p></details></article>
+          <article class="card feature-card"><span class="icon icon-green"><svg aria-hidden="true"><use href="#people"></use></svg></span><h3>Predicción de ocupación</h3><p>Consulta una estimación de cuántos puestos pueden quedar disponibles en la unidad.</p><details class="feature-more"><summary>¿Por qué es útil?</summary><p>Conocer una ocupación probable puede orientar la decisión de esperar esa unidad o considerar otra opción.</p></details></article>
+          <article class="card feature-card"><span class="icon"><svg aria-hidden="true"><use href="#routes"></use></svg></span><h3>Rutas, paradas y horarios</h3><p>Revisa la información de los recorridos y hasta qué hora trabaja cada ruta para evitar llegar cuando ya no hay servicio.</p><details class="feature-more"><summary>Incluye también</summary><p>La propuesta contempla rutas optimizadas mediante inteligencia artificial y la consulta de los puntos de parada.</p></details></article>
+          <article class="card feature-card"><span class="icon icon-warm"><svg aria-hidden="true"><use href="#bell"></use></svg></span><h3>Notificaciones</h3><p>Recibe avisos relacionados con el servicio, como cambios de ruta o suspensiones, cuando esa información sea comunicada.</p><details class="feature-more"><summary>Una comunicación más clara</summary><p>Los avisos buscan acercar al usuario información que de otro modo puede no llegarle antes de salir.</p></details></article>
+          <article class="card feature-card"><span class="icon icon-green"><svg aria-hidden="true"><use href="#report"></use></svg></span><h3>Reportes ciudadanos</h3><p>Un canal propuesto para que las personas compartan incidencias relacionadas con el transporte público.</p><details class="feature-more"><summary>Participación ciudadana</summary><p>Los reportes pueden complementar la información disponible y ayudar a visibilizar lo que ocurre en las rutas.</p></details></article>
+          <article class="card feature-card"><span class="icon"><svg aria-hidden="true"><use href="#dashboard"></use></svg></span><h3>Panel de gestión para la Alcaldía</h3><p>Un dashboard con acceso mediante login para consultar información útil sobre rutas y operación.</p><details class="feature-more"><summary>Orientado a la gestión</summary><p>El panel forma parte de la propuesta de gestión; esta página pública no incluye un acceso operativo al dashboard.</p></details></article>
+          <article class="card feature-card"><span class="icon icon-warm"><svg aria-hidden="true"><use href="#bus"></use></svg></span><h3>Transporte diverso</h3><p>El alcance contempla buses, carros por puesto y mototaxis en la ciudad de Maracaibo.</p><details class="feature-more"><summary>Una mirada local</summary><p>La solución está pensada para las condiciones de movilidad del municipio y su estado actual de infraestructura tecnológica.</p></details></article>
+        </div>
+        <div class="note"><svg aria-hidden="true"><use href="#bell"></use></svg><span><strong>Nota:</strong> las funciones son parte de la propuesta académica. No se conectan a datos de operación en vivo desde este sitio web; las estimaciones dependen de la conexión, el GPS y la información disponible de cada ruta.</span></div>
+        <div class="button-row"><a class="button button-primary" href="como-funciona.html">Cómo funciona la tecnología</a><a class="button button-secondary" href="resultados.html">Resultados y límites</a></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container"><div class="footer-grid"><div class="footer-brand"><img src="assets/bus-tracker-logo.jpeg" alt=""><p><strong>Maracaibo IA Solutions</strong><br>Universidad Dr. José Gregorio Hernández<br>Maracaibo, Zulia, Venezuela</p></div><nav class="footer-nav" aria-label="Navegación del pie"><a href="problema.html">El problema</a><a href="solucion.html">Solución</a><a href="como-funciona.html">Cómo funciona</a><a href="resultados.html">Resultados</a><a href="contacto.html">Contacto</a></nav></div><div class="footer-bottom"><span>Proyecto de Ingeniería en Sistemas</span><span>Nunca más pierdas tu bus. La IA te avisa.</span></div></div></footer>
+</body>
+</html>
