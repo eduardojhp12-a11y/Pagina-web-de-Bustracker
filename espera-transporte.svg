@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">La incertidumbre de esperar transporte</title>
+  <desc id="desc">Una persona espera en una parada con un reloj y un bus a la distancia.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#e4f1ff"/>
+      <stop offset="1" stop-color="#f8efd9"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="520" rx="28" fill="url(#sky)"/>
+  <circle cx="727" cy="111" r="52" fill="#fff" opacity=".8"/>
+  <path d="M0 370h900v150H0z" fill="#d9e7f2"/>
+  <path d="M0 430h900" stroke="#fff" stroke-dasharray="34 24" stroke-width="8"/>
+  <g fill="#c6d9e8">
+    <path d="M92 154h130v216H92zM111 182h38v54h-38zm55 0h38v54h-38zm-55 77h38v54h-38zm55 0h38v54h-38z"/>
+    <path d="M688 202h130v168H688zM706 225h38v43h-38zm55 0h38v43h-38zm-55 66h38v43h-38zm55 0h38v43h-38z"/>
+  </g>
+  <path d="M80 370V184m-14 186h370m-351-184h332" fill="none" stroke="#52677e" stroke-linecap="round" stroke-width="9"/>
+  <path d="M91 188h352v182" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="13"/>
+  <g transform="translate(550 261)">
+    <circle cx="52" cy="52" r="49" fill="#fff" stroke="#1268c4" stroke-width="7"/>
+    <path d="M52 24v30l20 12" fill="none" stroke="#1268c4" stroke-linecap="round" stroke-width="8"/>
+    <path d="M52 4v9m0 78v9M4 52h9m78 0h9" stroke="#f5bc3d" stroke-linecap="round" stroke-width="7"/>
+  </g>
+  <g transform="translate(278 251)">
+    <circle cx="57" cy="31" r="28" fill="#f2bc93"/>
+    <path d="M30 28c3-34 54-41 65-3-19-8-44-8-65 3" fill="#132d4a"/>
+    <path d="M8 141c2-58 20-84 50-84s49 26 51 84" fill="#1268c4"/>
+    <path d="M50 82v37" stroke="#fff" stroke-linecap="round" stroke-width="7"/>
+  </g>
+  <g transform="translate(688 343)">
+    <rect width="126" height="62" rx="14" fill="#084b92"/>
+    <path d="M15 13h96v23H15z" fill="#e4f1ff"/>
+    <circle cx="28" cy="63" r="10" fill="#132d4a"/><circle cx="98" cy="63" r="10" fill="#132d4a"/>
+    <path d="M48 13v23m30-23v23" stroke="#84bfff" stroke-width="4"/>
+  </g>
+</svg>
